@@ -60,7 +60,7 @@ object ObjectOrientation extends App {
 
   //Anonymous classes
   val dinosaur = new Carnivore {
-    override def eat(animal: Animal): Unit println ("I am a dinosaur and I can eat pretty much anything")
+    override def eat(animal: Animal):Unit = println ("I am a dinosaur and I can eat pretty much anything")
   }
 
   /*
